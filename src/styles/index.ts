@@ -36,7 +36,7 @@ export const Section = styled.section`
     position: relative;
 `;
 
-export const Sticky = styled.div`
+export const Sticky = styled(motion.div)`
     height: 100vh;
     position: sticky;
     top: 0;
