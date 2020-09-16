@@ -1,10 +1,14 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global'
+import { Main, Section, Sticky } from './styles';
+
 function App() {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       Typeform
-    </div>
+    </>
   );
 }
 
